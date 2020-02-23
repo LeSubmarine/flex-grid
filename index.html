@@ -9,11 +9,11 @@
 		font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
 		font-size: 1.2rem;
 		line-height: 1.4rem;
-		color:#E0E0E0;
+		color:#777;
 		padding:1rem;
 	}	
 	#headwrapper, #mainwrapper {
-		background: #E2C1CB;
+		background-image: linear-gradient(#E2C1CB, #eee);
 		padding:1rem;
 		margin-bottom: 1rem;
 		border-radius: 1rem;
@@ -31,9 +31,31 @@
 		line-height:1rem;
 		padding:0;
 		margin:0;
+		font-family: Georgia, "Times New Roman", serif;
 	}
 	h2 + p {
 		margin-top:0.5rem;
+	}
+	hr {
+		visibility: hidden;
+	}
+	body > p {
+		color: #E2C1CB;
+		display: block;
+		height:2rem;
+	}
+	body > p:hover {
+		color:#000; 
+	}
+	body > p a:link {
+		font-weight: bold;
+		text-decoration: none;
+		color: #E2C1CB;
+	}
+	body > p a:hover {
+		text-decoration: none;
+		color:#FFF;
+		background: #E2C1CB;
 	}
 </style>
 </head>	
@@ -66,6 +88,8 @@
 			<h2>4 Lorem ipsum</h2> 
 			<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse aliquid laboriosam minima ex praesentium recusandae reprehenderit unde sit tempore atque aut commodi quae expedita corrupti, dignissimos architecto. Eius, maiores ad?</p>
 		</div>
-	</div>	
+	</div>
+	<hr />
+	<p>Experiment with Grid and Flexbox - <a href="mailto:miha@zealand.dk">miha@zealand.dk</a></p>
 </body>
 </html>
